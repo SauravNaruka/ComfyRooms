@@ -10,7 +10,7 @@ import SwiftUI
 
 struct PlacementButtonsView: View {
     @Binding var isPlacementEnabled: Bool
-    @Binding var selectedModel: Model?
+    var selectedModel: Model?
     @Binding var modelConfirmedForPlacement: Model?
     
     var body: some View {
@@ -44,7 +44,7 @@ struct PlacementButtonsView: View {
     
     func resetPlacementParameters(){
         self.isPlacementEnabled = false
-        self.selectedModel = nil
+//        self.selectedModel = nil
     }
 }
 

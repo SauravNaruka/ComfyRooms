@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-
+/*
 struct ModelPickerView: View {
     @Binding var isPlacementEnabled: Bool
     @Binding var selectedModel: Model?
@@ -37,6 +37,7 @@ struct ModelPickerView: View {
         .background(Color.black.opacity(0.5))
     }
 }
+*/
 
 //struct ModelPickerView_Previews: PreviewProvider {
 //    static var previews: some View {

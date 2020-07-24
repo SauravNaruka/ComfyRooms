@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E75F33624C2790E009CAD76 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33524C2790E009CAD76 /* ARViewContainer.swift */; };
+		6E75F33824C27A5F009CAD76 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33724C27A5F009CAD76 /* ProductsView.swift */; };
+		6E75F33A24C44B07009CAD76 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33924C44B07009CAD76 /* GridStack.swift */; };
+		6E75F33C24C56FD6009CAD76 /* ARWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */; };
 		6E9A869B24C1CDC7004491DC /* Beds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A869A24C1CDC7004491DC /* Beds.xcassets */; };
 		6EB195D924C149F100A5AD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195D824C149F100A5AD14 /* AppDelegate.swift */; };
 		6EB195DB24C149F100A5AD14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195DA24C149F100A5AD14 /* ContentView.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E75F33524C2790E009CAD76 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		6E75F33724C27A5F009CAD76 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		6E75F33924C44B07009CAD76 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWrapperView.swift; sourceTree = "<group>"; };
 		6E9A869A24C1CDC7004491DC /* Beds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Beds.xcassets; sourceTree = "<group>"; };
 		6EB195D524C149F100A5AD14 /* ComfyRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComfyRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB195D824C149F100A5AD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,15 +83,19 @@
 			isa = PBXGroup;
 			children = (
 				6EB195D824C149F100A5AD14 /* AppDelegate.swift */,
+				6E75F33524C2790E009CAD76 /* ARViewContainer.swift */,
+				6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */,
 				6EB195DA24C149F100A5AD14 /* ContentView.swift */,
-				6E9A869A24C1CDC7004491DC /* Beds.xcassets */,
 				6ED6514124C1966C0071536F /* Model.swift */,
-				6EB195FB24C1850000A5AD14 /* PlacementButtonsView.swift */,
 				6EB195F924C1800400A5AD14 /* ModelPickerView.swift */,
-				6EB195EC24C14C2700A5AD14 /* Models */,
-				6EB195DE24C149F200A5AD14 /* Assets.xcassets */,
+				6E75F33724C27A5F009CAD76 /* ProductsView.swift */,
+				6E75F33924C44B07009CAD76 /* GridStack.swift */,
+				6EB195FB24C1850000A5AD14 /* PlacementButtonsView.swift */,
 				6EB195E324C149F200A5AD14 /* LaunchScreen.storyboard */,
 				6EB195E624C149F200A5AD14 /* Info.plist */,
+				6E9A869A24C1CDC7004491DC /* Beds.xcassets */,
+				6EB195DE24C149F200A5AD14 /* Assets.xcassets */,
+				6EB195EC24C14C2700A5AD14 /* Models */,
 				6EB195E024C149F200A5AD14 /* Preview Content */,
 			);
 			path = ComfyRooms;
@@ -190,9 +202,13 @@
 			files = (
 				6ED6514224C1966C0071536F /* Model.swift in Sources */,
 				6EB195FC24C1850000A5AD14 /* PlacementButtonsView.swift in Sources */,
+				6E75F33C24C56FD6009CAD76 /* ARWrapperView.swift in Sources */,
+				6E75F33824C27A5F009CAD76 /* ProductsView.swift in Sources */,
 				6EB195DB24C149F100A5AD14 /* ContentView.swift in Sources */,
 				6EB195D924C149F100A5AD14 /* AppDelegate.swift in Sources */,
 				6EB195FA24C1800400A5AD14 /* ModelPickerView.swift in Sources */,
+				6E75F33A24C44B07009CAD76 /* GridStack.swift in Sources */,
+				6E75F33624C2790E009CAD76 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
