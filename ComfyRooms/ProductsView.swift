@@ -16,6 +16,7 @@ struct ProductsView: View {
             HStack{
                 ForEach(self.products, id: \.modelName){ product in
                     NavigationLink(destination: ARWrapperView(selectedModel: product)){
+                        VStack{
                             Image(uiImage: product.image)
                                 .resizable()
                                 .scaledToFit()
@@ -23,7 +24,16 @@ struct ProductsView: View {
                                 .padding(.leading)
                                 .background(Color.white)
                                 .cornerRadius(12)
-
+                            
+                            Text("Name: \(product.displayName)")
+                                .font(.caption)
+                                .foregroundColor(.gray)
+                            
+                            Text("Price: \(product.price)")
+                                .font(.subheadline)
+                            
+                        }
+                        
                     }
                     .buttonStyle(PlainButtonStyle())
                 }
