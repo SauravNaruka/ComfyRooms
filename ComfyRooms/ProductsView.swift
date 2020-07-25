@@ -23,7 +23,7 @@ struct ProductsView: View {
                                 .padding(.leading)
                                 .background(Color.white)
                                 .cornerRadius(12)
-                            
+
                     }
                     .buttonStyle(PlainButtonStyle())
                 }

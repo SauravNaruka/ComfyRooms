@@ -9,17 +9,18 @@
 import SwiftUI
 import RealityKit
 import ARKit
+import FocusEntity
 
 struct ARViewContainer: UIViewRepresentable {
     @Binding var modelConfirmedForPlacement: Model?
     
     func makeUIView(context: Context) -> ARView {
+        FocusARView(frame: .zero)
+//        let arView = ARView(frame: .zero)
         
-        let arView = ARView(frame: .zero)
-        
-        let config = ARWorldTrackingConfiguration()
-        config.planeDetection = [.horizontal]
-        config.environmentTexturing = .automatic
+//        let config = ARWorldTrackingConfiguration()
+//        config.planeDetection = [.horizontal]
+//        config.environmentTexturing = .automatic
         
 //        if #available(iOS 13.4, *) {
 //            if ARWorldTrackingConfiguration.supportsSceneReconstruction(.mesh) {
@@ -29,9 +30,9 @@ struct ARViewContainer: UIViewRepresentable {
 //            print("Debug: sceneReconstruction not aviable")
 //        }
         
-        arView.session.run(config)
+//        arView.session.run(config)
         
-        return arView
+//        return arView
         
     }
     
@@ -58,5 +59,4 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
 }
-
 

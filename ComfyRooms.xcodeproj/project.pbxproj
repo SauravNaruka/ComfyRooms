@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,18 +11,20 @@
 		6E75F33824C27A5F009CAD76 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33724C27A5F009CAD76 /* ProductsView.swift */; };
 		6E75F33A24C44B07009CAD76 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33924C44B07009CAD76 /* GridStack.swift */; };
 		6E75F33C24C56FD6009CAD76 /* ARWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */; };
-		6E9A869B24C1CDC7004491DC /* Beds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A869A24C1CDC7004491DC /* Beds.xcassets */; };
+		6EA0504C24CBC08000EDD31C /* type1_chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504624CBC07C00EDD31C /* type1_chair_swan.usdz */; };
+		6EA0504D24CBC08000EDD31C /* type1_toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504724CBC07D00EDD31C /* type1_toy_biplane.usdz */; };
+		6EA0504E24CBC08000EDD31C /* type3_pot_plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504824CBC07E00EDD31C /* type3_pot_plant.usdz */; };
+		6EA0504F24CBC08000EDD31C /* type3_flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504924CBC07E00EDD31C /* type3_flower_tulip.usdz */; };
+		6EA0505024CBC08000EDD31C /* type2_gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504A24CBC07F00EDD31C /* type2_gramophone.usdz */; };
+		6EA0505124CBC08000EDD31C /* type2_fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0504B24CBC08000EDD31C /* type2_fender_stratocaster.usdz */; };
+		6EA0505324CC117400EDD31C /* type1_TableFirst.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0505224CC117400EDD31C /* type1_TableFirst.usdz */; };
+		6EA0505624CC143200EDD31C /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 6EA0505524CC143200EDD31C /* FocusEntity */; };
+		6EA0505824CC154B00EDD31C /* FocusARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0505724CC154B00EDD31C /* FocusARView.swift */; };
 		6EB195D924C149F100A5AD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195D824C149F100A5AD14 /* AppDelegate.swift */; };
 		6EB195DB24C149F100A5AD14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195DA24C149F100A5AD14 /* ContentView.swift */; };
 		6EB195DF24C149F200A5AD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195DE24C149F200A5AD14 /* Assets.xcassets */; };
 		6EB195E224C149F200A5AD14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195E124C149F200A5AD14 /* Preview Assets.xcassets */; };
 		6EB195E524C149F200A5AD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195E324C149F200A5AD14 /* LaunchScreen.storyboard */; };
-		6EB195F324C14C7500A5AD14 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195ED24C14C7500A5AD14 /* toy_biplane.usdz */; };
-		6EB195F424C14C7500A5AD14 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195EE24C14C7500A5AD14 /* fender_stratocaster.usdz */; };
-		6EB195F524C14C7500A5AD14 /* pot_plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195EF24C14C7500A5AD14 /* pot_plant.usdz */; };
-		6EB195F624C14C7500A5AD14 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195F024C14C7500A5AD14 /* flower_tulip.usdz */; };
-		6EB195F724C14C7500A5AD14 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195F124C14C7500A5AD14 /* gramophone.usdz */; };
-		6EB195F824C14C7500A5AD14 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6EB195F224C14C7500A5AD14 /* chair_swan.usdz */; };
 		6EB195FA24C1800400A5AD14 /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195F924C1800400A5AD14 /* ModelPickerView.swift */; };
 		6EB195FC24C1850000A5AD14 /* PlacementButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB195FB24C1850000A5AD14 /* PlacementButtonsView.swift */; };
 		6ED6514224C1966C0071536F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6514124C1966C0071536F /* Model.swift */; };
@@ -33,7 +35,14 @@
 		6E75F33724C27A5F009CAD76 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
 		6E75F33924C44B07009CAD76 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWrapperView.swift; sourceTree = "<group>"; };
-		6E9A869A24C1CDC7004491DC /* Beds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Beds.xcassets; sourceTree = "<group>"; };
+		6EA0504624CBC07C00EDD31C /* type1_chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type1_chair_swan.usdz; sourceTree = "<group>"; };
+		6EA0504724CBC07D00EDD31C /* type1_toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type1_toy_biplane.usdz; sourceTree = "<group>"; };
+		6EA0504824CBC07E00EDD31C /* type3_pot_plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type3_pot_plant.usdz; sourceTree = "<group>"; };
+		6EA0504924CBC07E00EDD31C /* type3_flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type3_flower_tulip.usdz; sourceTree = "<group>"; };
+		6EA0504A24CBC07F00EDD31C /* type2_gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type2_gramophone.usdz; sourceTree = "<group>"; };
+		6EA0504B24CBC08000EDD31C /* type2_fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type2_fender_stratocaster.usdz; sourceTree = "<group>"; };
+		6EA0505224CC117400EDD31C /* type1_TableFirst.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = type1_TableFirst.usdz; sourceTree = "<group>"; };
+		6EA0505724CC154B00EDD31C /* FocusARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusARView.swift; sourceTree = "<group>"; };
 		6EB195D524C149F100A5AD14 /* ComfyRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComfyRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB195D824C149F100A5AD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EB195DA24C149F100A5AD14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,12 +50,6 @@
 		6EB195E124C149F200A5AD14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EB195E424C149F200A5AD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EB195E624C149F200A5AD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB195ED24C14C7500A5AD14 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
-		6EB195EE24C14C7500A5AD14 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
-		6EB195EF24C14C7500A5AD14 /* pot_plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pot_plant.usdz; sourceTree = "<group>"; };
-		6EB195F024C14C7500A5AD14 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
-		6EB195F124C14C7500A5AD14 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
-		6EB195F224C14C7500A5AD14 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
 		6EB195F924C1800400A5AD14 /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
 		6EB195FB24C1850000A5AD14 /* PlacementButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonsView.swift; sourceTree = "<group>"; };
 		6ED6514124C1966C0071536F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA0505624CC143200EDD31C /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,7 @@
 			children = (
 				6EB195D824C149F100A5AD14 /* AppDelegate.swift */,
 				6E75F33524C2790E009CAD76 /* ARViewContainer.swift */,
+				6EA0505724CC154B00EDD31C /* FocusARView.swift */,
 				6E75F33B24C56FD6009CAD76 /* ARWrapperView.swift */,
 				6EB195DA24C149F100A5AD14 /* ContentView.swift */,
 				6ED6514124C1966C0071536F /* Model.swift */,
@@ -93,7 +98,6 @@
 				6EB195FB24C1850000A5AD14 /* PlacementButtonsView.swift */,
 				6EB195E324C149F200A5AD14 /* LaunchScreen.storyboard */,
 				6EB195E624C149F200A5AD14 /* Info.plist */,
-				6E9A869A24C1CDC7004491DC /* Beds.xcassets */,
 				6EB195DE24C149F200A5AD14 /* Assets.xcassets */,
 				6EB195EC24C14C2700A5AD14 /* Models */,
 				6EB195E024C149F200A5AD14 /* Preview Content */,
@@ -112,12 +116,13 @@
 		6EB195EC24C14C2700A5AD14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6EB195F224C14C7500A5AD14 /* chair_swan.usdz */,
-				6EB195EE24C14C7500A5AD14 /* fender_stratocaster.usdz */,
-				6EB195F024C14C7500A5AD14 /* flower_tulip.usdz */,
-				6EB195F124C14C7500A5AD14 /* gramophone.usdz */,
-				6EB195EF24C14C7500A5AD14 /* pot_plant.usdz */,
-				6EB195ED24C14C7500A5AD14 /* toy_biplane.usdz */,
+				6EA0504624CBC07C00EDD31C /* type1_chair_swan.usdz */,
+				6EA0504724CBC07D00EDD31C /* type1_toy_biplane.usdz */,
+				6EA0505224CC117400EDD31C /* type1_TableFirst.usdz */,
+				6EA0504B24CBC08000EDD31C /* type2_fender_stratocaster.usdz */,
+				6EA0504A24CBC07F00EDD31C /* type2_gramophone.usdz */,
+				6EA0504924CBC07E00EDD31C /* type3_flower_tulip.usdz */,
+				6EA0504824CBC07E00EDD31C /* type3_pot_plant.usdz */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +143,9 @@
 			dependencies = (
 			);
 			name = ComfyRooms;
+			packageProductDependencies = (
+				6EA0505524CC143200EDD31C /* FocusEntity */,
+			);
 			productName = ComfyRooms;
 			productReference = 6EB195D524C149F100A5AD14 /* ComfyRooms.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +174,9 @@
 				Base,
 			);
 			mainGroup = 6EB195CC24C149F100A5AD14;
+			packageReferences = (
+				6EA0505424CC143200EDD31C /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 6EB195D624C149F100A5AD14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,16 +191,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA0504F24CBC08000EDD31C /* type3_flower_tulip.usdz in Resources */,
+				6EA0505324CC117400EDD31C /* type1_TableFirst.usdz in Resources */,
 				6EB195E524C149F200A5AD14 /* LaunchScreen.storyboard in Resources */,
-				6EB195F424C14C7500A5AD14 /* fender_stratocaster.usdz in Resources */,
-				6EB195F624C14C7500A5AD14 /* flower_tulip.usdz in Resources */,
-				6EB195F824C14C7500A5AD14 /* chair_swan.usdz in Resources */,
-				6EB195F724C14C7500A5AD14 /* gramophone.usdz in Resources */,
-				6E9A869B24C1CDC7004491DC /* Beds.xcassets in Resources */,
+				6EA0504E24CBC08000EDD31C /* type3_pot_plant.usdz in Resources */,
 				6EB195E224C149F200A5AD14 /* Preview Assets.xcassets in Resources */,
-				6EB195F324C14C7500A5AD14 /* toy_biplane.usdz in Resources */,
+				6EA0505024CBC08000EDD31C /* type2_gramophone.usdz in Resources */,
+				6EA0504C24CBC08000EDD31C /* type1_chair_swan.usdz in Resources */,
+				6EA0505124CBC08000EDD31C /* type2_fender_stratocaster.usdz in Resources */,
+				6EA0504D24CBC08000EDD31C /* type1_toy_biplane.usdz in Resources */,
 				6EB195DF24C149F200A5AD14 /* Assets.xcassets in Resources */,
-				6EB195F524C14C7500A5AD14 /* pot_plant.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +217,7 @@
 				6E75F33824C27A5F009CAD76 /* ProductsView.swift in Sources */,
 				6EB195DB24C149F100A5AD14 /* ContentView.swift in Sources */,
 				6EB195D924C149F100A5AD14 /* AppDelegate.swift in Sources */,
+				6EA0505824CC154B00EDD31C /* FocusARView.swift in Sources */,
 				6EB195FA24C1800400A5AD14 /* ModelPickerView.swift in Sources */,
 				6E75F33A24C44B07009CAD76 /* GridStack.swift in Sources */,
 				6E75F33624C2790E009CAD76 /* ARViewContainer.swift in Sources */,
@@ -402,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6EA0505424CC143200EDD31C /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EA0505524CC143200EDD31C /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EA0505424CC143200EDD31C /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EB195CD24C149F100A5AD14 /* Project object */;
 }
