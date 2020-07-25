@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct ARWrapperView: View {
-    var selectedModel: Model?
+    @State var selectedModel: Model?
     @State private var modelConfirmedForPlacement: Model?
-    @State private var isPlacementEnabled: Bool = true
+    @State private var isPlacementEnabled: ProductAddState = .add
     
     var body: some View {
         ZStack{
@@ -19,7 +19,31 @@ struct ARWrapperView: View {
             
             VStack{
                 Spacer()
-                PlacementButtonsView(isPlacementEnabled: self.$isPlacementEnabled, selectedModel: self.selectedModel, modelConfirmedForPlacement: self.$modelConfirmedForPlacement)
+                if isPlacementEnabled == ProductAddState.add {
+                    
+                    PlacementButtonsView(isPlacementEnabled: self.$isPlacementEnabled, selectedModel: self.selectedModel, modelConfirmedForPlacement: self.$modelConfirmedForPlacement)
+                    
+                } else if isPlacementEnabled == ProductAddState.selection {
+                    
+                    ModelPickerView(isPlacementEnabled: self.$isPlacementEnabled, selectedModel: self.$selectedModel)
+                    
+                } else {
+                    
+                    HStack{
+                        Spacer()
+                        Button(action: {
+                            self.isPlacementEnabled = ProductAddState.selection
+                        }){
+                            Image(systemName: "plus")
+                                .frame(width: 60, height: 60)
+                                .font(.title)
+                                .background(Color.white.opacity(0.75))
+                                .cornerRadius(30)
+                                .padding(20)
+                        }
+                        .padding()
+                    }
+                }
                 
             }
             .padding()

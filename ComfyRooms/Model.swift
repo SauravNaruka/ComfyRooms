@@ -10,14 +10,14 @@ import UIKit
 import RealityKit
 import Combine
 
-class Model {
-    var modelName: String
-    var image: UIImage
-    var modelEntity: ModelEntity?
-    var price: Int
-    var displayName: String
+class Model: ObservableObject {
+    @Published var modelName: String
+    @Published var image: UIImage
+    @Published var modelEntity: ModelEntity?
+    @Published var price: Int
+    @Published var displayName: String
     
-    private var cancellable: AnyCancellable? = nil
+    @Published private var cancellable: AnyCancellable? = nil
     
     init(modelName: String){
         self.modelName = modelName
@@ -38,5 +38,13 @@ class Model {
                 self.modelEntity = modelEntity
                 print("Debug: sucessfully load model entity for model name \(self.modelName)")
             })
+    }
+}
+
+class Products: ObservableObject{
+    @Published var models : [Model]
+    
+    init(models: [Model]){
+        self.models = models
     }
 }

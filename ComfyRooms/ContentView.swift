@@ -31,9 +31,11 @@ struct ContentView : View {
     private var type3models: [Model] = loadModels(by: "type3")
     
     var body: some View {
-        NavigationView{
+        let products = Products(models: models + type2models + type3models)
+        
+        return NavigationView{
             VStack(alignment: .leading){
-                Text("Sofa")
+                Text("Comfy Homes")
                     .font(.title)
                     .padding(.leading)
                 
@@ -45,6 +47,7 @@ struct ContentView : View {
                 
                 Spacer()
             }
+            .environmentObject(products)
             
         }
     }
